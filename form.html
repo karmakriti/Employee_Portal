@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="center">
+
+    <form action="search.php" method="POST">
+    <h1> Employee Information</h1>
+    <div class="form">
+<!--        <input type="text" name="" class="textfield" placeholder="Search ID">-->
+
+        <input type="text" name="name" class="textfield" placeholder="Employee Name" >
+
+        <select class="textfield" name="gender">
+            <option value="Not Selected">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">other</option>
+
+        </select>
+        <select class="textfield" name="department">
+            <option>Select Department</option>
+            <option>IT</option>
+            <option>Accounts</option>
+            <option>Sales</option>
+            <option>Marketing</option>
+            <option>Business Development</option>
+        </select>
+
+        <textarea placeholder="Address" name="address"></textarea>
+
+        <input type="submit" value="Display" name="searchdata" class="btn" style="background-color:lavender;">
+        <input type="submit" value="Register" name="save" class="btn" style="background-color:lightgreen;">
+
+
+
+    </div>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
